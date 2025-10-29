@@ -85,7 +85,7 @@ p {
 
 /* Organization logos - Made smaller */
 .org-logo {
-    max-width: 120px; /* Reduced from 150px */
+    max-width: 50px; /* Reduced from 150px */
     height: auto;
     display: block;
     margin: 0 auto;
