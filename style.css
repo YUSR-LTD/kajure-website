@@ -40,11 +40,11 @@ header ul li a:hover {
     color: #1abc9c;
 }
 
-/* Top Logo */
+/* Top Logo - Made smaller */
 .top-logo {
-    max-width: 300px;
+    max-width: 200px; /* Reduced from 300px */
     height: auto;
-    margin: 30px 0;
+    margin: 20px 0; /* Reduced margin */
     box-shadow: 0 4px 8px rgba(0,0,0,0.2);
     border-radius: 10px;
 }
@@ -80,16 +80,17 @@ p {
 }
 
 #organizations ul li {
-    margin: 25px auto;
+    margin: 20px auto; /* Reduced margin */
 }
 
+/* Organization logos - Made smaller */
 .org-logo {
-    max-width: 150px;
+    max-width: 120px; /* Reduced from 150px */
     height: auto;
     display: block;
     margin: 0 auto;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.15);
+    border-radius: 8px; /* Slightly smaller radius */
+    box-shadow: 0 3px 5px rgba(0,0,0,0.15); /* Smaller shadow */
     transition: transform 0.3s;
 }
 
